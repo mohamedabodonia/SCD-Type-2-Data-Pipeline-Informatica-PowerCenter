@@ -1,0 +1,1 @@
+# SCD-Type-2-Data-Pipeline-Informatica-PowerCenter
