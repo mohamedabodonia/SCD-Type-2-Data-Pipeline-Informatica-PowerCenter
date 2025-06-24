@@ -62,5 +62,13 @@ This project demonstrates how to implement a **Slowly Changing Dimension (SCD) T
 
 ## 📸 Pipeline Screenshot
 
-<img src="https://github.com/mohamedabodonia/sql-datawarehouse-project/blob/main/docs/data_architecture.png?raw=true">
+
+<img src="https://github.com/mohamedabodonia/SCD-Type-2-Data-Pipeline-Informatica-PowerCenter/blob/main/Informatica%20Power%20center%20image/1.jpeg?raw=true">
+
+## 🚀 How to Run
+
+1. Import the mapping and workflow into Informatica PowerCenter.
+2. Set up Oracle connections for source and target.
+3. Run the workflow to load and transform data.
+4. Query `TRG_CUSTOMER1` to validate version-controlled records.
 
