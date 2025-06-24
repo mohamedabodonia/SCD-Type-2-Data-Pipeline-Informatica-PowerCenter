@@ -70,5 +70,37 @@ This project demonstrates how to implement a **Slowly Changing Dimension (SCD) T
 1. Import the mapping and workflow into Informatica PowerCenter.
 2. Set up Oracle connections for source and target.
 3. Run the workflow to load and transform data.
-4. Query `TRG_CUSTOMER1` to validate version-controlled records.
+
+  ## First Load Data into Target
+   
+<img src="https://github.com/mohamedabodonia/SCD-Type-2-Data-Pipeline-Informatica-PowerCenter/blob/main/WorkFlow/First%20Running.jpeg?raw=true">
+
+  The Target Table on Oracle Database
+
+  <img src="https://github.com/mohamedabodonia/SCD-Type-2-Data-Pipeline-Informatica-PowerCenter/blob/main/WorkFlow/Loading%20data%20into%20Target.jpeg?raw=true">
+
+ ## Insert New Record 
+
+ When Inserting New Record in Source Table 
+
+   <img src="https://github.com/mohamedabodonia/SCD-Type-2-Data-Pipeline-Informatica-PowerCenter/blob/main/WorkFlow/Insert%20New%20Record.jpeg?raw=true">
+
+ ## Update Record 
+
+This Image show that only one record Affected 
+      <img src="https://github.com/mohamedabodonia/SCD-Type-2-Data-Pipeline-Informatica-PowerCenter/blob/main/WorkFlow/Update%20Monitor.jpeg?raw=true">
+
+
+This image Show that Updated record is duplicated by New Record with version coulmn version=2 
+       <img src="https://github.com/mohamedabodonia/SCD-Type-2-Data-Pipeline-Informatica-PowerCenter/blob/main/WorkFlow/Oracle%20Target%20Table.jpeg?raw=true">
+
+
+
+
+
+
+
+
+   
+5. Query `TRG_CUSTOMER` to validate version-controlled records.
 
